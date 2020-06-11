@@ -348,3 +348,24 @@ function createFieldBytes(field) {
 		document.getElementById("tableRow" + field.row).appendChild(divCell);
 	}
 }
+
+function submitKey(e) {
+	buildScreen();
+	window.setTimeout(function () { 
+		document.getElementById("field1").focus(); 
+	}, 0); 
+}
+
+$(function(){
+    $('#screenTable').keydown(function(e) {
+        if(e.which === 114) {
+			submitKey();
+			return false;
+        }
+    });
+    $('#screenTable').keyup(function(e) {
+        if(e.which === 114) {
+             history.go(-1);
+        }
+    });
+});
