@@ -1,0 +1,39 @@
+.protecteddiv {
+		font-family: Consolas, "Courier New", Courier, monospace;
+		font-size: 100%;
+		padding: 1px;
+		border: 0px solid;
+		margin: 0px;
+		color: green;
+		max-width: 150px;
+}
+
+.protectedinputfield {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	font-size: 100%;
+	color: blue;
+	background-color: white;
+	border: 0px solid;
+}
+
+.blankarea {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	font-size: 100%;
+	color: blue;
+	background-color: #e2dddd;
+	border: 0px solid;
+}
+
+.unprotectedinputfield {
+	font-family: Consolas, "Courier New", Courier, monospace;
+	font-size: 100%;
+	color: black;
+	background-color: #e2dddd;
+	border: 0px solid;
+}
+
+table,
+th,
+td {
+	border-collapse: collapse;
+}
